@@ -1,0 +1,1 @@
+db.produtos.find({}, {name: 1, quantidade: 1}).sort({vendidos: -1}).limit(1)
